@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Page One</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="page1">
+
+  <h3>Scanner</h3>
+
+
+  <button  (click)="scanWithBB()" id="scannerStart">Scan With Scanner</button>
+  <button  (click)="stopScan()" id="scannerStop">Stop Scanner</button>
+  <button  (click)="scan()">Scan With Camera</button>
+  
+    <input type="text" />
+  <p id="scenarioOutputScanData">No Data</p>
+  <button  (click)="initializeble()">initialize</button>
+    <button  (click)="discover()">discover</button>
+  <button  (click)="connect()">connect</button>
+    <button  (click)="disconnect()">disconnect</button>
+    <button  (click)="connectSerial()">connectSerial</button>
+    <button (click)="printhello()">print</button>
+</ion-content>

@@ -38,4 +38,5 @@
   <plugin name="cordova-plugin-compat" version="1.0.0" />
   <plugin name="cordova-plugin-scannerbb" version="4.0.0" />
   <plugin name="phonegap-plugin-barcodescanner" version="6.0.1" />
+  <plugin name="cordova-plugin-bluetooth-serial" version="0.4.5" />
 </widget>
